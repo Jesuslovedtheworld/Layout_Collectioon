@@ -1,1 +1,2 @@
-implementation 'com.belerweb:pinyin4j:2.5.1'  Android 中汉字自动转换成拼音
+##implementation 'com.belerweb:pinyin4j:2.5.1'  Android 涓眽瀛楄嚜鍔ㄨ浆鎹㈡垚鎷奸煶
+##https://blog.csdn.net/zhan10001/article/details/54377477  鍩庡競鍒楄〃閾炬帴
