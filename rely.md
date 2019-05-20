@@ -1,0 +1,1 @@
+implementation 'com.belerweb:pinyin4j:2.5.1'  Android 中汉字自动转换成拼音
