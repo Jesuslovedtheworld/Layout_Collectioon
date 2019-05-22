@@ -1,0 +1,28 @@
+
+    private void initChildViews() {
+        ViewGroup.MarginLayoutParams lp = new ViewGroup.MarginLayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        lp.leftMargin = 5;
+        lp.rightMargin = 5;
+        lp.topMargin = 5;
+        lp.bottomMargin = 5;
+        for (int i = 0; i < mNames.length; i++) {
+            TextView view = new TextView(this);
+            view.setOnClickListener(this);
+            view.setText(mNames[i]);
+            view.setTextColor(Color.WHITE);
+            view.setBackgroundDrawable(getResources().getDrawable(R.drawable.textshape));
+            mXf.addView(view, lp);
+        }
+    }
+
+//×Ô¶¨Òåshape
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#666666" />
+    <corners android:radius="10dp" />
+    <padding
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp" />
+</shape>
